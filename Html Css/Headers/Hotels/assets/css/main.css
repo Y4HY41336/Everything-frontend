@@ -1,0 +1,76 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 40px;
+}
+
+.main {
+  width: 1440px;
+}
+.main .top {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.main .top .icons {
+  display: flex;
+  gap: 16px;
+  position: relative;
+  left: 64px;
+}
+.main .top .logo {
+  margin-left: 194px;
+}
+.main .top .searchbar {
+  display: flex;
+  position: relative;
+  right: 64px;
+  height: 36px;
+  width: 307px;
+}
+.main .top .searchbar input {
+  height: 36px;
+  width: 307px;
+  border: #8A9CA7 1px solid;
+  border-radius: 20px;
+  padding: 16px;
+}
+.main .top .searchbar .searchbar-icon {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 271px;
+  top: 8px;
+}
+.main .bottom {
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .bottom .words {
+  display: flex;
+  gap: 48px;
+}
+.main .white {
+  background-color: #FBFBFB;
+}
+.main .black {
+  background-color: #151D20;
+}
+
+/*# sourceMappingURL=main.css.map */

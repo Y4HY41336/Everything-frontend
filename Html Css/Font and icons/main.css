@@ -1,0 +1,45 @@
+*{
+    font-family: Kalnia, sans-serif;
+    font-weight: 300;
+}
+.w100{
+    font-weight: 100;
+}
+.w200{
+    font-weight: 200;
+}
+.w300{
+    font-weight: 300;
+}
+.w400{
+    font-weight: 400;
+}
+.w500{
+    font-weight: 500;
+}
+.w600{
+    font-weight: 600;
+}
+.w700{
+    font-weight: 700;
+}
+#facebook{
+    color: #4867aa;
+    
+}
+#twitter{
+    color: #1da1f2;
+}
+#x{
+    color: black;
+    
+}
+#x:hover{
+    color: red;
+}
+#twitter:hover{
+    color: red;
+}
+#facebook:hover{
+    color: red; 
+}

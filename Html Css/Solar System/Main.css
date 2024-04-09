@@ -1,0 +1,188 @@
+body {
+    background-color: black;
+
+}
+
+.solar-system {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.sun {
+    background-color: #a68701;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    border: 0;
+}
+
+.orbit {
+    border: 1px solid #334755;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    position: absolute;
+    animation: orbit1 infinite linear;
+    opacity: 50%;
+}
+.first {
+    width: 150px;
+    height: 150px;
+    animation-duration: 8.7s;
+    opacity: 50%;
+}
+.second{
+    width: 200px;
+    height: 200px;
+    animation-duration: 22.4s;
+    opacity: 50%;
+}
+.third{
+    width: 250px;
+    height: 250px;
+    animation-duration: 36.5s;
+    opacity: 50%;
+}
+.fourth{
+    width: 300px;
+    height: 300px;
+    animation-duration: 68.6s;
+    opacity: 50%;
+}
+.fifth{
+    width: 400px;
+    height: 400px;
+    animation-duration: 432.8s;
+    opacity: 50%;
+}
+.sixth{
+    width: 500px;
+    height: 500px;
+    animation-duration: 1073.8s;
+    opacity: 50%;
+}
+.seventh{
+    width: 600px;
+    height: 600px;
+    animation-duration: 3056.8s;
+    opacity: 50%;
+}
+.eighth{
+    width: 700px;
+    height: 700px;
+    animation-duration: 5975.7s;
+    opacity: 50%;
+}
+.ninth{
+    width: 800px;
+    height: 800px;
+    animation-duration: 9049s;
+    opacity: 50%;
+}
+.planet1 {
+    border-radius: 50%;
+    background-color: orange;
+    width: 5px;
+    height: 5px;
+    transform: translateY(-3px);
+}
+.planet2 {
+    border-radius: 50%;
+    background-color: red;
+    width: 7px;
+    height: 7px;
+    transform: translateY(-4px);
+}
+.planet3 {
+    border-radius: 50%;
+    background-color: #397ddb;
+    width: 10px;
+    height: 10px;
+    transform: translateY(-5px);
+}
+.planet4 {
+    border-radius: 50%;
+    background-color: rgb(151, 20, 3);
+    width: 9px;
+    height: 9px;
+    transform: translateY(-5px);
+}
+.planet5 {
+    border-radius: 50%;
+    background-color: #ccb3a0;
+    width: 25px;
+    height: 25px;
+    transform: translateY(-12px);
+}
+.planet6 {
+    border-radius: 50%;
+    background-color: #bf9565;
+    width: 20px;
+    height: 20px;
+    transform: translateY(-10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.planet7 {
+    border-radius: 50%;
+    background-color: #76bce6;
+    width: 15px;
+    height: 15px;
+    transform: translateY(-8px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+.planet8 {
+    border-radius: 50%;
+    background-color: #5a74af;
+    width: 15px;
+    height: 15px;
+    transform: translateY(-8px);
+}
+.planet9 {
+    border-radius: 50%;
+    background-color: orange;
+    width: 3px;
+    height: 3px;
+    transform: translateY(-2px);
+}
+.ring1{   
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 27px;
+    height: 27px;
+    position: absolute;
+}
+.ring2{   
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -3px;
+    top: -3px;
+}
+@keyframes orbit1 {
+    from {
+        transform: rotateZ(0);
+    }
+
+    to {
+        transform: rotateZ(-360deg);
+    }
+}

@@ -1,0 +1,93 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eeedef;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.main > div{
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border: 3px solid lightgray;
+    border-radius: 6%;
+    transition-duration: 280ms;
+    display: flex;
+    justify-content: center;
+
+}
+.main > div:hover{
+    scale: 1.1;
+    
+}
+.album{
+    width: 90%;
+    height: 60%;
+    background-color: white;
+    border-radius: 6%;
+    margin-top: 10px;
+    
+}
+.album > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 6%;
+
+}
+.names{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    border-radius: 6%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+.name{
+    font-size: 22px;
+}
+.songs{
+    font-size: 12px;
+}
+.date{
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+}
+button{
+    margin-top: 5px;
+    background-color: #29b24f;
+    width: 110px;
+    height: 20px;
+    border-width: 0;
+    border-radius: 4px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    transition-duration: 280ms;
+
+}
+button:hover{
+    background-color: #12662d;
+}
+i {
+    font-size: 13px;
+    height: 100%;
+    margin-top: 5px;
+}
+
+

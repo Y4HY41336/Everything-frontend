@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "sass": "^1.70.0"
+  },
+  "name": "headers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "about:sass:watch": "sass about/about.scss about/about.css --watch",
+    "home:sass:watch": "sass home/home.scss home/home.css --watch",
+    "login:sass:watch": "sass login/login.scss login/login.css --watch",
+    "contact:sass:watch": "sass contact/contact.scss contact/contact.css --watch",
+    "wishlist:sass:watch": "sass wishlist/wishlist.scss wishlist/wishlist.css --watch",
+    "blog:sass:watch": "sass blog/blog.scss blog/blog.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

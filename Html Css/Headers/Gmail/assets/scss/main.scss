@@ -1,0 +1,92 @@
+html ,body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.main {
+    width: 1440px;
+    height: 64px;
+    background-color: #FBFBFB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .left {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        margin-left: 64px;
+
+        .gmails {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+    }
+
+    .middle {
+        .searchbar {
+            display: flex;
+            width: 749px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            position: relative;
+
+            .seacrh-icon {
+                width: 20px;
+                height: 20px;
+                position: absolute;
+                left: 32px;
+            }
+
+            input {
+                width: 749px;
+                height: 48px;
+                border-radius: 8px;
+                padding-left: 68px;
+                border: 0;
+            }
+
+            input::placeholder {
+                font-size: 20px;
+                position: relative;
+                top: 4px;
+                color: #8A9CA7;
+            }
+
+            .triangle {
+                position: absolute;
+                right: 20px;
+            }
+        }
+    }
+
+    .right {
+        display: flex;
+        align-items: center;
+        gap: 28px;
+        margin-right: 64px;
+    }
+
+}
+
+.white {
+    background-color: #FBFBFB;
+}
+
+.black {
+    background-color: #151D20;
+}

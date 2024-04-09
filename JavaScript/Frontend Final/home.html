@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kalnia:wght@100;200;300;400;500;600;700&family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="home\home.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="top">
+            <div class="top-inner">
+                <div class="left">
+                    <ul>
+                        <li class="facebook"><i class="fab fa-facebook-f"> </i></li>
+                        <li class="twitter"><i class="fa-brands fa-twitter"></i></li>
+                        <li class="numbers">
+                            <div class="number">
+                                <i class="fa-solid fa-phone"></i>
+                                020-800-456-747
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="center">Free in-store delivery</div>
+                <div class="right">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle btn-light custom-gray" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            English
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">German</a></li>
+                            <li><a class="dropdown-item" href="#">French</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle btn-light custom-gray" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            USD
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">EUR</a></li>
+                            <li><a class="dropdown-item" href="#">GBP</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="left">
+                <button type="button" class="btn dark btn-light">Varkala</button>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle btn-light dark" type="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Home
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Home</a></li>
+                        <li><a class="dropdown-item" href="#">Home1</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle btn-light gray" type="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Shop
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Shop1</a></li>
+                        <li><a class="dropdown-item" href="#">Shop2</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle btn-light gray" type="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Icons
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Icons1</a></li>
+                        <li><a class="dropdown-item" href="#">Icons2</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle btn-light gray" type="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Pages
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="home.html">Home</a></li>
+                        <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                        <li><a class="dropdown-item" href="login.html">Login/sign up</a></li>
+                        <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                        <li><a class="dropdown-item" href="about.html">About - Company</a></li>
+                        <li><a class="dropdown-item" href="wishlist.html">Wishlist</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle btn-light gray" type="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Docs
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Docs1</a></li>
+                        <li><a class="dropdown-item" href="#">Docs2</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="center">
+                <div class="search">
+                    <input type="search" placeholder="Search">
+                    <div>
+                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    </div>
+                </div>
+
+                <div class="icons">
+                    <div class="user">
+                        <i class="fa-regular fa-user">
+                            <div class="none"></div>
+                        </i>
+                    </div>
+                    <div class="heart">
+                        <i class="fa-regular fa-heart">
+                            <div>3</div>
+                        </i>
+                    </div>
+                    <div class="bag">
+                        <i class="fa-solid fa-bag-shopping">
+                            <div>5</div>
+                        </i>
+                    </div>
+                    <i class="fa-solid fa-bars"></i>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+
+    <div class="con">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper" style="transform: translate3d(-5584px, 0px, 0px); transition-duration: 0ms;">
+
+                <div class="swiper-slide swiper-slide-duplicate-active" data-swiper-slide-index="0"
+                    style="width: 1396px;">
+                    <div class="container h-100">
+                        <div class="row h-100 align-items-center">
+                            <div class="col-sm-6 pt-5 pt-md-0 swiper-words" data-swiper-parallax="-500"
+                                style="transition-duration: 0ms;">
+                                <p class="subtitle letter-spacing-3 mb-3 text-dark font-weight-light">Time is almost up
+                                </p>
+                                <h2 class="display-3 mb-5" style="line-height: 1">Design clocks on sale</h2><a
+                                    class="btn btn-outline-primary" href="#">Start shopping</a>
+                            </div>
+                            <div class="text-center col-sm-6 swiper-img"><img class="img-fluid home-slider-image"
+                                    src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/clock-transparent.png"
+                                    alt="" style="max-height: 500px; transition-duration: 0ms;"
+                                    data-swiper-parallax="-200">
+                                <svg class="svg-blob d-none d-md-inline-block svg-blob-fill-current svg-blob-swiper"
+                                    style="color: #e7eaf9">
+                                    <use xlink:href="#blob-shape-3"> </use>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide bg-cover-left" data-swiper-slide-index="1" style="width: 1396px;">
+                    <div class="container h-100">
+                        <div class="row h-100 align-items-center">
+                            <div class="col-sm-6 pt-5 pt-md-0 swiper-words" data-swiper-parallax="-500"
+                                style="transition-duration: 0ms;">
+                                <p class="subtitle letter-spacing-3 mb-3 text-dark font-weight-light">Our all-time
+                                    favourites</p>
+                                <h2 class="display-3" style="line-height: 1">Black &amp; White</h2>
+                                <p class="text-muted mb-5">The bedding was hardly able to cover it and seemed ready to
+                                    slide off any moment. His many legs, pit</p><a class="btn btn-outline-primary"
+                                    href="#">Discover more</a>
+                            </div>
+                            <div class="text-center col-sm-6 swiper-img"><img class="img-fluid home-slider-image"
+                                    src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/chair2-transparent.png"
+                                    alt="" style="max-height: 500px; transition-duration: 0ms;"
+                                    data-swiper-parallax="-200">
+                                <svg class="svg-blob d-none d-md-inline-block svg-blob-fill-current svg-blob-swiper"
+                                    style="color: #ffdddd">
+                                    <use xlink:href="#blob-shape-3"> </use>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide bg-cover-right swiper-slide-duplicate swiper-slide-next swiper-slide-duplicate-prev"
+                    data-swiper-slide-index="2" style="width: 1396px;">
+                    <div class="container h-100">
+                        <div class="row h-100 align-items-center">
+                            <div class="col-sm-6 pt-5 pt-md-0 swiper-words" data-swiper-parallax="-500"
+                                style="transition-duration: 100ms;">
+                                <p class="subtitle letter-spacing-3 mb-3 text-dark font-weight-light">Our all-time
+                                    favourites</p>
+                                <h2 class="display-3" style="line-height: 1">Boxxez</h2>
+                                <p class="text-muted mb-5">The bedding was hardly able to cover it and seemed ready to
+                                    slide off any moment. His many legs, pit</p><a class="btn btn-outline-primary"
+                                    href="#">Discover more</a>
+                            </div>
+                            <div class="text-center col-sm-6 swiper-img"><img class="img-fluid home-slider-image"
+                                    src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/box-transparent.png"
+                                    alt="" style="max-height: 500px; transition-duration: 0ms;"
+                                    data-swiper-parallax="-200">
+                                <svg class="svg-blob d-none d-md-inline-block svg-blob-fill-current svg-blob-swiper"
+                                    style="color: #f5e6a8">
+                                    <use xlink:href="#blob-shape-3"> </use>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <section class="py-6">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8 mb-5">
+                    <p class="text-uppercase text-muted font-weight-bold mb-1">Top choices</p>
+                    <h3>Popular this week</h3>
+                    <p class="lead text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-lg-6 pt-md-3 hover-scale"><a href="detail-2.html"><img class="img-fluid"
+                            src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/book-sq.jpg"
+                            alt=""></a>
+                    <div class="px-4 position-relative z-index-2 mt--3"><a class="text-dark text-decoration-none"
+                            href="detail-2.html">
+                            <h3>Furniture<br>source<br>book </h3>
+                            <p class="text-muted">$39.90</p>
+                        </a>
+                        <p> <a class="btn btn-link text-dark text-decoration-none px-0" href="detail-2.html"> Shop now
+                            </a></p>
+                    </div>
+                </div>
+                <div class="col-md-7 ml-auto mb-4 mb-lg-5 hover-scale">
+                    <div class="position-absolute z-index-5 py-6"><a class="text-dark text-decoration-none"
+                            href="detail-1.html">
+                            <h2>Norwegg<br>design<br>chair </h2>
+                            <p class="text-muted">$139.90</p>
+                        </a>
+                        <p> <a class="btn btn-link text-dark text-decoration-none px-0" href="detail-1.html"> Shop now
+                            </a></p>
+                    </div>
+                    <div class="ml-6"><a href="detail-1.html"><img class="img-fluid"
+                                src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/chair-2-sq.jpg"
+                                alt=""></a></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 ml-auto pt-lg-6 mb-4 mb-lg-5 order-md-2 hover-scale"><a
+                        class="text-dark text-decoration-none" href="detail-1.html"><img class="img-fluid"
+                            src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/box-sq.jpg" alt=""></a>
+                    <div class="px-4 position-relative z-index-2 mt--3"><a class="text-dark text-decoration-none"
+                            href="detail-1.html">
+                            <h3>Accessory<br>boxes</h3>
+                            <p class="text-muted">$29.90</p>
+                        </a>
+                        <p> <a class="btn btn-link text-dark text-decoration-none px-0"> Shop now </a></p>
+                    </div>
+                </div>
+                <div class="col-md-7 mb-4 mb-lg-5 order-md-1 hover-scale">
+                    <div class="position-absolute z-index-5 py-6"><a class="text-dark text-decoration-none"
+                            href="detail-2.html">
+                            <h2>Sunn<br>Clock<br></h2>
+                            <p class="text-muted">$89.90</p>
+                        </a>
+                        <p> <a class="btn btn-link text-dark text-decoration-none px-0" href="detail-2.html"> Shop now
+                            </a></p>
+                    </div>
+                    <div class="ml-6"><a href="detail-2.html"><img class="img-fluid"
+                                src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/clock-sq.jpg"
+                                alt=""></a></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 pt-md-3 mb-4 mb-lg-5 hover-scale"><a href="detail-2.html"><img class="img-fluid"
+                            src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/clock2-sq.jpg"
+                            alt=""></a>
+                    <div class="px-4 position-relative z-index-2 mt--3"><a class="text-dark text-decoration-none"
+                            href="detail-2.html">
+                            <h3>Swiss<br>Minutes<br>Black </h3>
+                            <p class="text-muted">$149.90</p>
+                        </a>
+                        <p> <a class="btn btn-link text-dark text-decoration-none px-0" href="detail-2.html"> Shop now
+                            </a></p>
+                    </div>
+                </div>
+                <div class="col-md-8 ml-auto hover-scale">
+                    <div class="position-absolute z-index-5 py-6"><a class="text-dark text-decoration-none"
+                            href="detail-1.html">
+                            <h2>Korona<br>dining<br>room chair </h2>
+                            <p class="text-muted">$39.90</p>
+                        </a>
+                        <p> <a class="btn btn-link text-dark text-decoration-none px-0" href="detail-1.html"> Shop now
+                            </a></p>
+                    </div>
+                    <div class="ml-6"><a href="detail-1.html"><img class="img-fluid"
+                                src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/chair3-3-sq.jpg"
+                                alt=""></a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="position-relative py-5" style="background-color: #ebf7ff;">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 d-flex align-items-center">
+              <div class="timer-words">
+                <p class="subtitle mb-3 text-danger">Deal of the week</p>
+                <h3 class="h1 timer-h3">Black and white Nordegg chairs</h3>
+                <p class="text-muted timer-p">
+                  <del class="mr-3">$129.00</del><span>$79.00</span>
+                </p>
+                <p class="mb-4"><span class="badge badge-danger p-3">$50 off</span></p>
+                <div class="bg-white px-5 py-4 shadow mb-4 timer-con" id="countdown">
+                  <div class="row justify-content-between">
+                    <div class="col-6 col-sm-3 text-center mb-4 mb-sm-0">
+                      <h6 class="h4 mb-2 days">29</h6><span class="text-muted">days</span>
+                    </div>
+                    <div class="col-6 col-sm-3 text-center mb-4 mb-sm-0">
+                      <h6 class="h4 mb-2 hours">20</h6><span class="text-muted">hours</span>
+                    </div>
+                    <div class="col-6 col-sm-3 text-center">
+                      <h6 class="h4 mb-2 minutes">14</h6><span class="text-muted">minutes</span>
+                    </div>
+                    <div class="col-6 col-sm-3 text-center">
+                      <h6 class="h4 mb-2 seconds">21</h6><span class="text-muted">seconds</span>
+                    </div>
+                  </div>
+                </div>
+                <p><a class="btn btn-outline-dark" href="#">Shop now</a></p>
+              </div>
+            </div>
+            <div class="col-lg-6 text-center"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/chair2-transparent.png" alt="" style="max-height: 450px;"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="position-relative py-6">
+        <div class="container">
+          <h2>New Arrivals</h2>
+          <p class="lead text-muted mb-5">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections</p>
+          <div class="row justify-content-between align-items-center mb-4">
+            <div class="col-12 col-md">
+              <ul class="list-inline mb-3 mb-md-0"> 
+                <li class="list-inline-item"><a class="text-dark" href="#">All Products </a></li>
+                <li class="list-inline-item"><a class="text-muted text-hover-dark" href="#">Chairs </a></li>
+                <li class="list-inline-item"><a class="text-muted text-hover-dark" href="#">Books</a></li>
+                <li class="list-inline-item"><a class="text-muted text-hover-dark" href="#">Clothes</a></li>
+                <li class="list-inline-item"><a class="text-muted text-hover-dark" href="#">Accessories</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-auto"><a class="btn btn-link px-0" href="#">All products</a></div>
+          </div>
+          <div class="row">
+            <div class="col-xl-3 col-md-4 col-6">
+              <div class="product aos-init aos-animate animated" data-aos="zoom-in" data-aos-delay="0">
+                <div class="product-image mb-md-3">
+                    <div class="product-swap-image"><img class="img-fluid product-swap-image-front" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/chair.jpg" alt="product"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/chair-2.jpg" alt="product"></div></a>
+                  <div class="product-hover-overlay"><a class="text-dark text-sm" href="#">
+                      <span class="d-none d-sm-inline">Add to cart</span></a>
+                    <div><a class="text-dark text-hover-primary mr-2" href="#">
+                        </a><a class="text-dark text-hover-primary text-decoration-none" href="#" data-toggle="modal" data-target="#quickView">
+                        </a></div>
+                  </div>
+                </div>
+                <div class="position-relative">
+                  <h3 class="text-base mb-1"><a class="text-dark" href="detail-1.html">Norwegg Chair</a></h3><span class="text-gray-500 text-sm">$40.00</span>
+                  <div class="product-stars text-xs"><i class="fa fa-star text-primary"></i><i class="fa fa-star text-primary"></i><i class="fa fa-star text-primary"></i><i class="fa fa-star text-muted"></i><i class="fa fa-star text-muted"></i></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-4 col-6">
+              <div class="product aos-init aos-animate animated" data-aos="zoom-in" data-aos-delay="0">
+                <div class="product-image mb-md-3"><a href="detail-1.html">
+                    <div class="product-swap-image"><img class="img-fluid product-swap-image-front" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/book.jpg" alt="product"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/book-2.jpg" alt="product"></div></a>
+                  <div class="product-hover-overlay"><a class="text-dark text-sm" href="#">
+                      <span class="d-none d-sm-inline">Add to cart</span></a>
+                    <div><a class="text-dark text-hover-primary mr-2" href="#">
+                       </a><a class="text-dark text-hover-primary text-decoration-none" href="#" data-toggle="modal" data-target="#quickView">
+                       </a></div>
+                  </div>
+                </div>
+                <div class="position-relative">
+                  <h3 class="text-base mb-1"><a class="text-dark" href="detail-1.html">Book</a></h3><span class="text-gray-500 text-sm">$40.00</span>
+                  <div class="product-stars text-xs"><i class="fa fa-star text-primary"></i><i class="fa fa-star text-primary"></i><i class="fa fa-star text-primary"></i><i class="fa fa-star text-muted"></i><i class="fa fa-star text-muted"></i></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-4 col-6">
+              <div class="product aos-init aos-animate animated" data-aos="zoom-in" data-aos-delay="0">
+                <div class="product-image mb-md-3">
+                    <div class="product-swap-image"><img class="img-fluid product-swap-image-front" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/chair2.jpg" alt="product"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/chair2-2.jpg" alt="product"></div></a>
+                  <div class="product-hover-overlay"><a class="text-dark text-sm" href="#">
+                      <span class="d-none d-sm-inline">Add to cart</span></a>
+                    <div><a class="text-dark text-hover-primary mr-2" href="#">
+                       </a><a class="text-dark text-hover-primary text-decoration-none" href="#" data-toggle="modal" data-target="#quickView">
+                        </a></div>
+                  </div>
+                </div>
+                <div class="position-relative">
+                  <h3 class="text-base mb-1"><a class="text-dark" href="detail-1.html">Another chair</a></h3><span class="text-gray-500 text-sm">$40.00</span>
+                  <div class="product-stars text-xs"><i class="fa fa-star text-primary"></i><i class="fa fa-star text-primary"></i><i class="fa fa-star text-primary"></i><i class="fa fa-star text-muted"></i><i class="fa fa-star text-muted"></i></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-4 col-6">
+              <div class="product aos-init aos-animate animated" data-aos="zoom-in" data-aos-delay="0">
+                <div class="product-image mb-md-3"><a href="detail-1.html">
+                    <div class="product-swap-image"><img class="img-fluid product-swap-image-front" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/chair3.jpg" alt="product"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/chair3-3.jpg" alt="product"></div></a>
+                  <div class="product-hover-overlay"><a class="text-dark text-sm" href="#">
+                      <span class="d-none d-sm-inline">Add to cart</span></a>
+                    <div><a class="text-dark text-hover-primary mr-2" href="#">
+                        </a><a class="text-dark text-hover-primary text-decoration-none" href="#" data-toggle="modal" data-target="#quickView">
+                        </a></div>
+                  </div>
+                </div>
+                <div class="position-relative">
+                  <h3 class="text-base mb-1"><a class="text-dark" href="detail-1.html">Your new chair</a></h3><span class="text-gray-500 text-sm">$40.00</span>
+                  <div class="product-stars text-xs"><i class="fa fa-star text-primary"></i><i class="fa fa-star text-primary"></i><i class="fa fa-star text-primary"></i><i class="fa fa-star text-muted"></i><i class="fa fa-star text-muted"></i></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-4 col-6">
+              <div class="product aos-init aos-animate animated" data-aos="zoom-in" data-aos-delay="0">
+                <div class="product-image mb-md-3"><a href="detail-1.html">
+                    <div class="product-swap-image"><img class="img-fluid product-swap-image-front" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/clock.jpg" alt="product"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/clock-2.jpg" alt="product"></div></a>
+                  <div class="product-hover-overlay"><a class="text-dark text-sm" href="#">
+                      <span class="d-none d-sm-inline">Add to cart</span></a>
+                    <div><a class="text-dark text-hover-primary mr-2" href="#">
+                        </a><a class="text-dark text-hover-primary text-decoration-none" href="#" data-toggle="modal" data-target="#quickView">
+                        </a></div>
+                  </div>
+                </div>
+                <div class="position-relative">
+                  <h3 class="text-base mb-1"><a class="text-dark" href="detail-1.html">Clock</a></h3><span class="text-gray-500 text-sm">$40.00</span>
+                  <div class="product-stars text-xs"><i class="fa fa-star text-primary"></i><i class="fa fa-star text-primary"></i><i class="fa fa-star text-primary"></i><i class="fa fa-star text-muted"></i><i class="fa fa-star text-muted"></i></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-4 col-6">
+              <div class="product aos-init aos-animate animated" data-aos="zoom-in" data-aos-delay="0">
+                <div class="product-image mb-md-3"><a href="detail-1.html">
+                    <div class="product-swap-image"><img class="img-fluid product-swap-image-front" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/clock3.jpg" alt="product"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/clock3-2.jpg" alt="product"></div></a>
+                  <div class="product-hover-overlay"><a class="text-dark text-sm" href="#">
+                      <span class="d-none d-sm-inline">Add to cart</span></a>
+                    <div><a class="text-dark text-hover-primary mr-2" href="#">
+                       </a><a class="text-dark text-hover-primary text-decoration-none" href="#" data-toggle="modal" data-target="#quickView">
+                        </a></div>
+                  </div>
+                </div>
+                <div class="position-relative">
+                  <h3 class="text-base mb-1"><a class="text-dark" href="detail-1.html">Clock</a></h3><span class="text-gray-500 text-sm">$40.00</span>
+                  <div class="product-stars text-xs"><i class="fa fa-star text-primary"></i><i class="fa fa-star text-primary"></i><i class="fa fa-star text-primary"></i><i class="fa fa-star text-muted"></i><i class="fa fa-star text-muted"></i></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-4 col-6">
+              <div class="product aos-init aos-animate animated" data-aos="zoom-in" data-aos-delay="0">
+                <div class="product-image mb-md-3">
+                  <div class="product-badge badge badge-dark">Sold out</div><a href="detail-1.html">
+                    <div class="product-swap-image"><img class="img-fluid product-swap-image-front" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/box.jpg" alt="product"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/box-2.jpg" alt="product"></div></a>
+                  <div class="product-hover-overlay"><a class="text-dark text-sm" href="#">
+                      <span class="d-none d-sm-inline">Add to cart</span></a>
+                    <div><a class="text-dark text-hover-primary mr-2" href="#">
+                       </a><a class="text-dark text-hover-primary text-decoration-none" href="#" data-toggle="modal" data-target="#quickView">
+                       </a></div>
+                  </div>
+                </div>
+                <div class="position-relative">
+                  <h3 class="text-base mb-1"><a class="text-dark" href="detail-1.html">Accessory box</a></h3><span class="text-gray-500 text-sm">$40.00</span>
+                  <div class="product-stars text-xs"><i class="fa fa-star text-primary"></i><i class="fa fa-star text-primary"></i><i class="fa fa-star text-primary"></i><i class="fa fa-star text-muted"></i><i class="fa fa-star text-muted"></i></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-4 col-6">
+              <div class="product aos-init aos-animate animated" data-aos="zoom-in" data-aos-delay="0">
+                <div class="product-image mb-md-3"><a href="detail-1.html">
+                    <div class="product-swap-image"><img class="img-fluid product-swap-image-front" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/box2.jpg" alt="product"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/box-2.jpg" alt="product"></div></a>
+                  <div class="product-hover-overlay"><a class="text-dark text-sm" href="#">
+                      <span class="d-none d-sm-inline">Add to cart</span></a>
+                    <div><a class="text-dark text-hover-primary mr-2" href="#">
+                        </a><a class="text-dark text-hover-primary text-decoration-none" href="#" data-toggle="modal" data-target="#quickView">
+                        </a></div>
+                  </div>
+                </div>
+                <div class="position-relative">
+                  <h3 class="text-base mb-1"><a class="text-dark" href="detail-1.html">Beige</a></h3><span class="text-gray-500 text-sm">$40.00</span>
+                  <div class="product-stars text-xs"><i class="fa fa-star text-primary"></i><i class="fa fa-star text-primary"></i><i class="fa fa-star text-primary"></i><i class="fa fa-star text-muted"></i><i class="fa fa-star text-muted"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade quickview" id="quickView" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+              <div class="modal-content">
+                <button class="close close-absolute close-rotate" type="button" data-dismiss="modal" aria-label="Close">
+                  <svg class="svg-icon w-3rem h-3rem svg-icon-light align-middle">
+                    <use xlink:href="#close-1"> </use>
+                  </svg>
+                </button>
+                <div class="modal-body quickview-body">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="detail-carousel">
+                        <div class="product-badge badge badge-primary">Fresh</div>
+                        <div class="product-badge badge badge-dark">Sale</div>
+                        <div class="swiper-container quickview-slider" id="quickViewSlider">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/detail-1-gray.jpg" alt="Modern Jacket 1"></div>
+                            <div class="swiper-slide"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/detail-2-gray.jpg" alt="Modern Jacket 2"></div>
+                            <div class="swiper-slide"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/detail-3-gray.jpg" alt="Modern Jacket 3"></div>
+                            <div class="swiper-slide"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/detail-4-gray.jpg" alt="Modern Jacket 4"></div>
+                            <div class="swiper-slide"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/detail-5-gray.jpg" alt="Modern Jacket 5"></div>
+                          </div>
+                        </div>
+                        <div class="swiper-thumbs" data-swiper="#quickViewSlider">
+                          <button class="swiper-thumb-item detail-thumb-item mb-3 active"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/detail-1-gray.jpg" alt="Modern Jacket 0"></button>
+                          <button class="swiper-thumb-item detail-thumb-item mb-3"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/detail-2-gray.jpg" alt="Modern Jacket 1"></button>
+                          <button class="swiper-thumb-item detail-thumb-item mb-3"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/detail-3-gray.jpg" alt="Modern Jacket 2"></button>
+                          <button class="swiper-thumb-item detail-thumb-item mb-3"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/detail-4-gray.jpg" alt="Modern Jacket 3"></button>
+                          <button class="swiper-thumb-item detail-thumb-item mb-3"><img class="img-fluid" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/detail-5-gray.jpg" alt="Modern Jacket 4"></button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 p-lg-5">
+                      <h2 class="mb-4 mt-4 mt-lg-1">Push-up Jeans</h2>
+                      <div class="d-flex flex-column flex-sm-row align-items-sm-center justify-content-sm-between mb-4">
+                        <ul class="list-inline mb-2 mb-sm-0">
+                          <li class="list-inline-item h4 font-weight-light mb-0">$65.00</li>
+                          <li class="list-inline-item text-muted font-weight-light"> 
+                            <del>$90.00</del>
+                          </li>
+                        </ul>
+                        <div class="d-flex align-items-center text-sm">
+                          <ul class="list-inline mr-2 mb-0">
+                            <li class="list-inline-item mr-0"><i class="fa fa-star text-primary"></i></li>
+                            <li class="list-inline-item mr-0"><i class="fa fa-star text-primary"></i></li>
+                            <li class="list-inline-item mr-0"><i class="fa fa-star text-primary"></i></li>
+                            <li class="list-inline-item mr-0"><i class="fa fa-star text-primary"></i></li>
+                            <li class="list-inline-item mr-0"><i class="fa fa-star text-gray-300"></i></li>
+                          </ul><span class="text-muted text-uppercase">25 reviews</span>
+                        </div>
+                      </div>
+                      <p class="mb-4 text-muted">Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame.</p>
+                      <form id="buyForm_modal" action="#">
+                        <div class="row">
+                          <div class="col-sm-6 col-lg-12 detail-option mb-4">
+                            <h6 class="detail-option-heading">Size <span>(required)</span></h6>
+                            <div class="dropdown bootstrap-select"><select class="selectpicker" name="size" data-style="btn-selectpicker">
+                              <option value="value_0">Small</option>
+                              <option value="value_1">Medium</option>
+                              <option value="value_2">Large</option>
+                            </select><button type="button" tabindex="-1" class="btn dropdown-toggle btn-selectpicker" data-toggle="dropdown" role="combobox" aria-owns="bs-select-1" aria-haspopup="listbox" aria-expanded="false" title="Small"><div class="filter-option"><div class="filter-option-inner"><div class="filter-option-inner-inner">Small</div></div> </div></button><div class="dropdown-menu "><div class="inner show" role="listbox" id="bs-select-1" tabindex="-1"><ul class="dropdown-menu inner show" role="presentation"></ul></div></div></div>
+                          </div>
+                          <div class="col-sm-6 col-lg-12 detail-option mb-5">
+                            <h6 class="detail-option-heading">Type <span>(required)</span></h6>
+                            <label class="btn btn-sm btn-outline-primary detail-option-btn-label" for="material_0_modal"> Hoodie
+                              <input class="input-invisible" type="radio" name="material" value="value_0" id="material_0_modal" required="">
+                            </label>
+                            <label class="btn btn-sm btn-outline-primary detail-option-btn-label" for="material_1_modal"> College
+                              <input class="input-invisible" type="radio" name="material" value="value_1" id="material_1_modal" required="">
+                            </label>
+                          </div>
+                        </div>
+                        <div class="input-group w-100 mb-4">
+                          <input class="form-control form-control-lg detail-quantity" name="items" type="number" value="1">
+                          <div class="input-group-append flex-grow-1">
+                            <button class="btn btn-dark btn-block" type="submit"> <i class="fa fa-shopping-cart mr-2"></i>Add to Cart</button>
+                          </div>
+                        </div>
+                        <div class="row mb-4">
+                          <div class="col-6"><a href="#"> <i class="far fa-heart mr-2"></i>Add to wishlist </a></div>
+                          <div class="col-6 text-right">
+                            <ul class="list-inline mb-0">
+                              <li class="list-inline-item mr-2"><a class="text-dark text-hover-primary" href="#"><i class="fab fa-facebook-f"> </i></a></li>
+                              <li class="list-inline-item"><a class="text-dark text-hover-primary" href="#"><i class="fab fa-twitter"> </i></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <ul class="list-unstyled">
+                          <li><strong>Category:</strong> <a class="text-muted" href="#">Jeans</a></li>
+                          <li><strong>Tags:</strong> <a class="text-muted" href="#">Leisure</a>, <a class="text-muted" href="#">Elegant</a></li>
+                        </ul>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mb-5">
+        <div class="position-relative text-center" style="background: #eae0bd; ">
+          <div class="position-absolute w-100 h-100 overflow-hidden">
+            
+          </div>
+          <div class="py-6 px-4">   <img class="position-absolute d-none d-md-block" style="right: 0;top: -50px; max-height: 100%; z-index: 5;" src="https://d19m59y37dris4.cloudfront.net/varkala/1-2-1/img/product/chair-transparent.png" alt="">
+            <div class="position-relative z-index-10">
+              <h4 class="display-3 font-weight-bold mb-3">Summer Sales</h4>
+              <h5 class="h2 font-weight-light mb-5">Our biggest sales this year — up to 60% off!</h5><a class="btn btn-outline-dark" href="#">Start shopping</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="py-6 py-lg-6 bg-gray-100">
+            <div class="container">
+              <div class="row">
+                <div class="d-flex col-lg-3 col-sm-6 py-4 service-column">
+                    <i class="fa-solid fa-truck"></i>
+                  <div class="service-text">
+                    <h6 class="text-sm mb-1">Free shipping &amp; return</h6>
+                    <p class="text-muted font-weight-light text-sm mb-0">Free Shipping over $300</p>
+                  </div>
+                </div>
+                <div class="d-flex col-lg-3 col-sm-6 py-4 service-column">
+                    <i class="fa-solid fa-coins"></i>
+                  <div class="service-text">
+                    <h6 class="text-sm mb-1">Money back guarantee</h6>
+                    <p class="text-muted font-weight-light text-sm mb-0">30 Days Money Back Guarantee</p>
+                  </div>
+                </div>
+                <div class="d-flex col-lg-3 col-sm-6 py-4 service-column">
+                    <i class="fa-solid fa-percent"></i>
+                  <div class="service-text">
+                    <h6 class="text-sm mb-1">Best prices</h6>
+                    <p class="text-muted font-weight-light text-sm mb-0">Always the best prices</p>
+                  </div>
+                </div>
+                <div class="d-flex col-lg-3 col-sm-6 py-4 service-column">
+                    <i class="fa-solid fa-headset"></i>
+                  <div class="service-text">
+                    <h6 class="text-sm mb-1">020-800-456-747</h6>
+                    <p class="text-muted font-weight-light text-sm mb-0">24/7 Available Support</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="py-6 text-muted"> 
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-5 pr-lg-5 pr-xl-6 mb-5 mb-lg-0 mail">
+                  <h6 class="text-dark letter-spacing-1 mb-4">Be in touch</h6>
+                  <p class="text-sm mb-3"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque temporibus.</p>
+                  <form action="#" id="newsletter-form">
+                    <div class="input-group input-group-underlined mb-3 mail-border">
+                      <input class="form-control form-control-underlined" type="email" placeholder="Your Email Address" aria-label="Your Email Address">
+                      <div class="input-group-append ml-0 icon">
+                        <button class="btn btn-underlined text-gray-700 py-0" type="button"> 
+                            <i class="fa-regular fa-envelope"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div class="col-lg-7">      
+                  <div class="row ">                
+                    <div class="col-lg-4 links"><a class="d-lg-none block-toggler my-3" data-toggle="collapse" href="#footerMenu0" aria-expanded="false" aria-controls="footerMenu0">Shop<span class="block-toggler-icon"></span></a>
+                      <div class="expand-lg" id="footerMenu0">
+                        <h6 class="text-dark letter-spacing-1 mb-4 d-none d-lg-block">Shop</h6>
+                        <ul class="list-unstyled text-sm pt-2 pt-lg-0">
+                          <li class="mb-2"> <a class="text-muted text-hover-dark link-animated" href="#">For Women</a></li>
+                          <li class="mb-2"> <a class="text-muted text-hover-dark link-animated" href="#">For Men</a></li>
+                          <li class="mb-2"> <a class="text-muted text-hover-dark link-animated" href="#">Stores</a></li>
+                          <li class="mb-2"> <a class="text-muted text-hover-dark link-animated" href="#">Our Blog</a></li>
+                          <li class="mb-2"> <a class="text-muted text-hover-dark link-animated" href="#">Shop</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 links"><a class="d-lg-none block-toggler my-3" data-toggle="collapse" href="#footerMenu1" aria-expanded="false" aria-controls="footerMenu1">Company<span class="block-toggler-icon"></span></a>
+                      <div class="expand-lg" id="footerMenu1">
+                        <h6 class="text-dark letter-spacing-1 mb-4 d-none d-lg-block">Company</h6>
+                        <ul class="list-unstyled text-sm pt-2 pt-lg-0">
+                          <li class="mb-2"> <a class="text-muted text-hover-dark link-animated" href="#">Login</a></li>
+                          <li class="mb-2"> <a class="text-muted text-hover-dark link-animated" href="#">Register</a></li>
+                          <li class="mb-2"> <a class="text-muted text-hover-dark link-animated" href="#">Wishlist</a></li>
+                          <li class="mb-2"> <a class="text-muted text-hover-dark link-animated" href="#">Our Products</a></li>
+                          <li class="mb-2"> <a class="text-muted text-hover-dark link-animated" href="#">Checkouts</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 links"><a class="d-lg-none block-toggler my-3" data-toggle="collapse" href="#footerMenu2" aria-expanded="false" aria-controls="footerMenu2">Your account<span class="block-toggler-icon"></span></a>
+                      <div class="expand-lg" id="footerMenu2">
+                        <h6 class="text-dark letter-spacing-1 mb-4 d-none d-lg-block">Your account</h6>
+                        <ul class="list-unstyled text-sm pt-2 pt-lg-0">
+                          <li class="mb-2"> <a class="text-muted text-hover-dark link-animated" href="#">Login</a></li>
+                          <li class="mb-2"> <a class="text-muted text-hover-dark link-animated" href="#">Register</a></li>
+                          <li class="mb-2"> <a class="text-muted text-hover-dark link-animated" href="#">Wishlist</a></li>
+                          <li class="mb-2"> <a class="text-muted text-hover-dark link-animated" href="#">Our Products</a></li>
+                          <li class="mb-2"> <a class="text-muted text-hover-dark link-animated" href="#">Checkouts</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="py-4 font-weight-light text-muted">
+            <div class="container">
+              <div class="row align-items-center text-sm text-gray-500 footer-terms">
+                <div class="col-lg-4 text-center text-lg-left">
+                  <p class="mb-lg-0">© 2020 Your company.  All rights reserved.</p>
+                </div>
+                <div class="col-lg-8">
+                  <ul class="list-inline mb-0 mt-2 mt-md-0 text-center text-lg-right">
+                    <li class="list-inline-item"> <a class="text-reset" href="#">Terms &amp; Conditions </a></li>
+                    <li class="list-inline-item"> <a class="text-reset" href="#">Privacy &amp; cookies </a></li>
+                    <li class="list-inline-item"> <a class="text-reset" href="#">Accessibility </a></li>
+                    <li class="list-inline-item"> <a class="text-reset" href="#">Customer Data Promise </a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+<script src="home\home.js"></script>
+
+</html>
